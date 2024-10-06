@@ -6,11 +6,16 @@ import moreIcon from "../assets/more.png";
 import notifictionIcon from "../assets/notification.png";
 import profileIcon from "../assets/user_profile.jpg";
 
-const NavBar = () => {
+
+const NavBar = ({ setSidebar }) => {
+  const handleSidebarToggle = () => {
+    setSidebar(prev => !prev);
+  };
+
   return (
     <nav className=" flex-div pb-2 px-[2%] justify-between bg-white sticky top-0 z-10 shadow-[0_0_10px_rgba(0,0,0,0.2)]">
       <div className="nav-left flex-div">
-        <img className="w-5 mr-6" src={menu_con} alt="" />
+        <img className="w-5 mr-6" onClick={handleSidebarToggle} src={menu_con}  alt="" />
         <img className="w-[130px]" src={logo} alt="" />
       </div>
       <div className="nav-middel flex-div">

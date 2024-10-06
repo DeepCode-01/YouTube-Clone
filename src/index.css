@@ -18,3 +18,18 @@ img{
     display: flex;
     align-items: center;
 }
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar p{
+    display: none;
+}
+.small-sidebar img{
+    width: 25px;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar .subscribed-list{
+    margin-top: 15px;
+}
