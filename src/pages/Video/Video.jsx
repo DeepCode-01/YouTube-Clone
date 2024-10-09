@@ -2,7 +2,7 @@
 
 const Video = () => {
   return (
-    <div>
+    <div className="play-container">
       
     </div>
   )

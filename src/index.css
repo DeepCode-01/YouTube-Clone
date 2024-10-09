@@ -33,3 +33,19 @@ img{
 .small-sidebar .subscribed-list{
     margin-top: 15px;
 }
+.feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-column-gap: 16px ;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.container{
+    background-color: #f9f9f9;
+    padding-left: 17%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.large-container{
+    padding-left: 7%;
+}

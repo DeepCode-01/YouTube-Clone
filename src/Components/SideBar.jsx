@@ -16,7 +16,7 @@ import Sports from "../assets/sports.png";
 
 const SideBar = ({sidebar}) => {
   return (
-    <div className={`sidebar ${sidebar?"":"small-sidebar"} bg-[#fff] width-[15%] h-[10vh] fixed top-0 pl-[2%] pt-20`}>
+    <div className={`sidebar ${sidebar?"":"small-sidebar"} bg-[#fff] width-[15%] h-[100vh] fixed top-0 pl-[2%] pt-20`}>
       <div className="sortcut-links">
         <div className="side-links flex items-center mb-3 w-fit flex-wrap cursor-pointer">
           <img className="w-5 mr-5" src={HomeImg} alt="" />
